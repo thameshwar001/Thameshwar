@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Instagram Logo */
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2672c3;
+}
+
+/* Separator (OR) */
+.separator {
+    margin: 15px 0;
+    color: #888;
+}
+
+.separator span {
+    font-size: 14px;
+}
+
+/* Facebook Login Button */
+.fb-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fb-login:hover {
+    background-color: #2d4373;
+}
+
+/* Forgot Password */
+.forgot-password a {
+    color: #3897f0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Sign-Up Section */
+.sign-up {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.sign-up a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}
